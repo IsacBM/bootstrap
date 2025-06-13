@@ -1,0 +1,49 @@
+
+
+.centralizar{
+    text-align: center;
+}
+
+.container{
+    margin-top: 10px;
+}
+
+.navbar{
+    border-bottom: solid 4px var(--cor-laranja);
+}
+.alinha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.laranja{
+    color: var(--cor-laranja);
+}
+
+.linha-cards{
+    text-align: center;
+}
+
+.botao-flutuante {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+}
+
+.flutuante{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    background-color: #275de5;
+    color: aliceblue;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+}
